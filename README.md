@@ -1,5 +1,12 @@
 # Casbin.js
 
+## Differences with `casbin/casbin.js`
+
+- Using Vite for bundling
+- Bumped dependencies
+
+---
+
 [![NPM version](https://img.shields.io/npm/v/casbin.js)](https://www.npmjs.com/package/casbin.js)
 [![Continuous integration](https://github.com/casbin/casbin.js/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/casbin/casbin.js/actions/workflows/ci.yml)
 [![codebeat badge](https://codebeat.co/badges/74b3febb-292f-4633-81df-3a76ea445cd8)](https://codebeat.co/projects/github-com-casbin-casbin-js-master)
@@ -60,8 +67,3 @@ More functionalities of Casbin.js are still under development. Feel free to rais
 - [ ] Cookie mode.
 - [ ] Lightweight enforcer (avoid the abuse of async functions).
 - [ ] Integration with other modern frontend frameworks.
-
-## Differences
-
-- Using Vite for bundling
-- Bumped dependencies
