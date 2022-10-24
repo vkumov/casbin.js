@@ -1,7 +1,7 @@
 {
     "name": "@vkumov/casbin.js",
     "private": false,
-    "version": "0.5.0",
+    "version": "0.5.1",
     "type": "module",
     "repository": "https://github.com/vkumov/casbin.js.git",
     "author": "kingiw <kingiw@hotmail.com>",
@@ -11,6 +11,7 @@
     ],
     "main": "./dist/casbin.umd.cjs",
     "module": "./dist/casbin.js",
+    "types": "./dist/index.d.ts",
     "exports": {
         ".": {
             "import": "./dist/casbin.js",
